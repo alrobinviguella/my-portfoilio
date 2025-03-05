@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alrobin Viguella - Electrician</title>
+    <style>
+        body {
+            font-family: Arial;, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #F6D116;
+            padding: 15px;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            display: inline-block;
+            transition: transform 0.3s ease-in-out;
+        }
+        nav a:hover {
+            transform: scale(1.2);
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            background-color: #EEEFBD;
+        }
+        header h1 span {
+            color: #Fcfcfc;
+            display: inline-block;
+            transition: transform 0.3s ease-in-out;
+        }
+        header h1 span:hover {
+            transform: rotate(5deg) scale(1.1);
+        }
+        header a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #CFD425;
+            color: Black;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+        header a:hover {
+            transform: scale(1.1);
+        }
+        header div img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+        header div a img {
+            width: 10px;
+            margin: 5px;
+            transition: transform 0.3s ease-in-out;
+            
+        
+        header div a img:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#work">WORK</a>
+        <a href="#accomplish">JOB ACCOMPLISH</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    
+    <header>
+        <div>
+            <h1>Hi, I'm <span>Alrobin C. Viguella</span>.</h1>
+            <h2>ELECTRICIAN</h2>
+            <p>I offer Electrical installation</p>
+            <a href="#contact">Hire Me</a>
+            <div>
+                <a href="#"><img src="facebook-new.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <div>
+            <img src="Ben.png" alt="Alrobin Viguella">
+        </div>
+    </header>
+
+</body>
+</html>
